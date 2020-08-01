@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang='en-us'>
+  <head>
+  <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+    cassandra hradil | Browse the Collection
+  </title>
+
+  <link rel='canonical' href='http://localhost:4000/work/collection/'/>
+  <link rel='icon' type='image/png' href="http://localhost:4000/work/img/logo.png">
+  <link rel='stylesheet' href="http://localhost:4000/work/assets/styles.css"/>
+
+  <script type='text/javascript' src="http://localhost:4000/work/assets/jquery-3.2.1.min.js"></script>
+  <noscript>Please enable JavaScript in your browser.</noscript>
+</head>
+
+
+  <body>
+    <time datetime='2020-08-01 13:41'></time>
+    <nav id='wax-header' class='navbar navbar-expand-lg navbar-light'>
+ <div class='wax-inline-container'>
+    <a class='navbar-brand' href="http://localhost:4000/work/" title='Home'>
+      cassandra hradil
+    </a>
+
+    <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#wax-header-navbar' aria-controls='wax-header-navbar' aria-expanded='false' aria-label='navigation'>
+      <span class='navbar-toggler-icon'></span>
+    </button>
+
+    <div class='collapse navbar-collapse' id="wax-header-navbar">
+      <ul class='nav navbar-nav ml-auto justify-content-end'>
+        
+          
+            <li class='nav-item'>
+              <a class='nav-link' href='http://localhost:4000/work/collection/'>portfolio</a>
+            </li>
+          
+        
+          
+            <li class='nav-item'>
+              <a class='nav-link' href='http://localhost:4000/work/about/'>about</a>
+            </li>
+          
+        
+          
+            <li class='nav-item'>
+              <a class='nav-link' href='http://localhost:4000/work/cv/'>cv</a>
+            </li>
+          
+        
+      </ul>
+    </div>
+  </div>
+ </nav>
+
+
+    
+
+    <div id='wax-main'>
+      <div id='wax-content' class='wax-inline-container'>
+        
+<div id="wax-gallery-portfolio-container" class="wax-gallery-container full-width">
+  <div class="wax-inline-container">
+    <div id="portfolio-facet-buttons" class="facet-buttons"></div>
+    <div id="wax-gallery-portfolio" class="wax-gallery"></div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  $( document ).ready(function() {
+    var container = $('#wax-gallery-portfolio-container');
+    var gallery = $('#wax-gallery-portfolio');
+    var buttonDiv = $('#portfolio-facet-buttons');
+
+    
+      gallery.append("<div class='gallery-item scholarly-work all'><a href='http://localhost:4000/work/portfolio/obj0/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://localhost:4000/work/img/derivatives/iiif/images/obj0_thesis-home/full/250,/0/default.jpg' alt='interactivity, indigeneity, and the digital imaginary'/><div class='overlay'><p class='info'>interactivity, indigeneity, and the digital imaginary</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item scholarly-work all'><a href='http://localhost:4000/work/portfolio/obj1/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://localhost:4000/work/img/derivatives/iiif/images/obj1_unbinding-page/full/250,/0/default.jpg' alt='our beloved kin'/><div class='overlay'><p class='info'>our beloved kin</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item poetry all'><a href='http://localhost:4000/work/portfolio/obj10/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://localhost:4000/work/img/derivatives/iiif/images/obj10_gay-as-in/full/250,/0/default.jpg' alt='as in muck shoe'/><div class='overlay'><p class='info'>as in muck shoe</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item data-visualization all'><a href='http://localhost:4000/work/portfolio/obj11/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://localhost:4000/work/img/derivatives/iiif/images/obj11_lcsh/full/250,/0/default.jpg' alt='zinenet.work'/><div class='overlay'><p class='info'>zinenet.work</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item twitter-bot all'><a href='http://localhost:4000/work/portfolio/obj12/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://localhost:4000/work' alt='theory_cats'/><div class='overlay'><p class='info'>theory_cats</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item data-visualization all'><a href='http://localhost:4000/work/portfolio/obj13/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://localhost:4000/work/img/derivatives/iiif/images/obj13_taxonomy-emotions/full/250,/0/default.jpg' alt='haircut'/><div class='overlay'><p class='info'>haircut</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item physical-computation all'><a href='http://localhost:4000/work/portfolio/obj2/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://localhost:4000/work/img/derivatives/iiif/images/obj2_tmis-2/full/250,/0/default.jpg' alt='touch me; I'm sharp'/><div class='overlay'><p class='info'>touch me; I'm sharp</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item data-visualization all'><a href='http://localhost:4000/work/portfolio/obj3/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://localhost:4000/work/img/derivatives/iiif/images/obj3_danait-gephi/full/250,/0/default.jpg' alt='digital atlas'/><div class='overlay'><p class='info'>digital atlas</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item data-visualization all'><a href='http://localhost:4000/work/portfolio/obj4/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://localhost:4000/work' alt='trees of new york'/><div class='overlay'><p class='info'>trees of new york</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item poetry all'><a href='http://localhost:4000/work/portfolio/obj5/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://localhost:4000/work/img/derivatives/iiif/images/obj5_cryptid/full/250,/0/default.jpg' alt='queer.archive.work'/><div class='overlay'><p class='info'>queer.archive.work</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item poetry all'><a href='http://localhost:4000/work/portfolio/obj6/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://localhost:4000/work/img/derivatives/iiif/images/obj6_in-the-archive/full/250,/0/default.jpg' alt='qxqi'/><div class='overlay'><p class='info'>qxqi</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item speculative-design all'><a href='http://localhost:4000/work/portfolio/obj7/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://localhost:4000/work/img/derivatives/iiif/images/obj7_diagram/full/250,/0/default.jpg' alt='liquid futurisms'/><div class='overlay'><p class='info'>liquid futurisms</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item speculative-design all'><a href='http://localhost:4000/work/portfolio/obj8/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://localhost:4000/work/img/derivatives/iiif/images/obj8_bone-metadata/full/250,/0/default.jpg' alt='written on their bones'/><div class='overlay'><p class='info'>written on their bones</p></div></div></a></div>");
+      gallery.append("<div class='gallery-item physical-computation all'><a href='http://localhost:4000/work/portfolio/obj9/'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='http://localhost:4000/work/img/derivatives/iiif/images/obj9_knit-1/full/250,/0/default.jpg' alt='dressing light'/><div class='overlay'><p class='info'>dressing light</p></div></div></a></div>");
+      
+    
+
+    
+      
+        var facets = Array.from(new Set(['scholarly-work', 'scholarly-work', 'poetry', 'data-visualization', 'twitter-bot', 'data-visualization', 'physical-computation', 'data-visualization', 'data-visualization', 'poetry', 'poetry', 'speculative-design', 'speculative-design', 'physical-computation']));
+        buttonDiv.append("<button class='btn facet active' data-filter='all'>show all</button>");
+
+        for (i in facets) {
+          buttonDiv.append(`<button class='btn facet' data-filter='${facets[i]}'>${facets[i]}</button>`);
+        }
+
+        $(document).ready(function(){
+          $(".facet").click(function(){
+            var filterValue = $(this).attr('data-filter');
+            $('.facet').removeClass('active');
+            $(this).addClass('active');
+            if(filterValue == 'all') { $('.all').show('slow'); }
+            else { $('.all').hide('slow'); $(`.${filterValue}`).show('slow'); }
+          });
+        });
+      
+    
+  });
+</script>
+
+
+      </div>
+    </div>
+
+    <footer id='wax-footer' class='page-footer container-fluid'>
+  <div class='wax-inline-container'>
+    <div class='row'>
+      <div class='col'>
+        <p class='footer-title'>cassandra hradil</p>
+        <p class='footer-description'>design | scholarship | technology</p>
+        <p class='footer-copyright'>
+          &copy; Example copyright org, 2019<br>
+          Built with <a href='https://github.com/minicomp/wax/'>Minicomp/Wax</a>
+        </p>
+      </div>
+      <div class='col'>
+        <p class='footer-title'>Links</p>
+        <p class='footer-links'>
+          
+        </p>
+        <p class='footer-logos'>
+          
+          
+          <a href="http://localhost:4000/work/" aria-label="Logo link to resource">
+            <img src='http://localhost:4000/work/img/logo.png' alt="logo"/>
+          </a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </body>
+
+  <script type='text/javascript' async defer src='http://localhost:4000/work/assets/bootstrap/bootstrap.min.js'></script>
+  <script type='text/javascript' async defer src='http://localhost:4000/work/assets/popper.min.js'></script>
+</html>

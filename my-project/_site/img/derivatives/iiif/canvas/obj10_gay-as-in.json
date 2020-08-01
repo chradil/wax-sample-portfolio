@@ -1,0 +1,29 @@
+{
+  "@type": "sc:Canvas",
+  "@id": "http://localhost:4000/work/img/derivatives/iiif/canvas/obj10_gay-as-in.json",
+  "label": "Page 1",
+  "width": 5288,
+  "height": 1952,
+  "thumbnail": "http://localhost:4000/work/img/derivatives/iiif/images/obj10_gay-as-in/full/250,/0/default.jpg",
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "@id": "http://localhost:4000/work/img/derivatives/iiif/annotation/obj10_gay-as-in.json",
+      "motivation": "sc:painting",
+      "resource": {
+        "@id": "http://localhost:4000/work/img/derivatives/iiif/images/obj10_gay-as-in/full/full/0/default.jpg",
+        "@type": "dcterms:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "http://localhost:4000/work/img/derivatives/iiif/images/obj10_gay-as-in",
+          "profile": "http://iiif.io/api/image/2/level0.json"
+        },
+        "width": 2644,
+        "height": 976
+      },
+      "on": "http://localhost:4000/work/img/derivatives/iiif/canvas/obj10_gay-as-in.json"
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

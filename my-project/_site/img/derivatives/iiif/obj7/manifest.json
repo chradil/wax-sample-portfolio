@@ -1,0 +1,102 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:4000/work/img/derivatives/iiif/obj7/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "obj7",
+  "thumbnail": "http://localhost:4000/work/img/derivatives/iiif/images/obj7_diagram/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "http://localhost:4000/work/img/derivatives/iiif/sequence/obj7_diagram.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://localhost:4000/work/img/derivatives/iiif/canvas/obj7_diagram.json",
+          "label": "Page 1",
+          "width": 3301,
+          "height": 2551,
+          "thumbnail": "http://localhost:4000/work/img/derivatives/iiif/images/obj7_diagram/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://localhost:4000/work/img/derivatives/iiif/annotation/obj7_diagram.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://localhost:4000/work/img/derivatives/iiif/images/obj7_diagram/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:4000/work/img/derivatives/iiif/images/obj7_diagram",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 3301,
+                "height": 2551
+              },
+              "on": "http://localhost:4000/work/img/derivatives/iiif/canvas/obj7_diagram.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://localhost:4000/work/img/derivatives/iiif/canvas/obj7_infrastructure-2.json",
+          "label": "Page 2",
+          "width": 8268,
+          "height": 4652,
+          "thumbnail": "http://localhost:4000/work/img/derivatives/iiif/images/obj7_infrastructure-2/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://localhost:4000/work/img/derivatives/iiif/annotation/obj7_infrastructure-2.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://localhost:4000/work/img/derivatives/iiif/images/obj7_infrastructure-2/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:4000/work/img/derivatives/iiif/images/obj7_infrastructure-2",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 8268,
+                "height": 4652
+              },
+              "on": "http://localhost:4000/work/img/derivatives/iiif/canvas/obj7_infrastructure-2.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://localhost:4000/work/img/derivatives/iiif/canvas/obj7_map.json",
+          "label": "Page 3",
+          "width": 8265,
+          "height": 6082,
+          "thumbnail": "http://localhost:4000/work/img/derivatives/iiif/images/obj7_map/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://localhost:4000/work/img/derivatives/iiif/annotation/obj7_map.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://localhost:4000/work/img/derivatives/iiif/images/obj7_map/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:4000/work/img/derivatives/iiif/images/obj7_map",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 8265,
+                "height": 6082
+              },
+              "on": "http://localhost:4000/work/img/derivatives/iiif/canvas/obj7_map.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "full": "http://localhost:4000/work/img/derivatives/iiif/images/obj7_diagram/full/full/0/default.jpg"
+}

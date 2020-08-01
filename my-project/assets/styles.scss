@@ -1,0 +1,51 @@
+---
+sitemap: false
+---
+/*
+variable declaration
+*/
+
+/* branding */
+$logo: url("{{ '/assets/logo.png' | absolute_url }}");
+
+/* text */
+
+$body-font:       'Open Sans', 'sans-serif';
+$heading-font:    'Carrois Gothic SC', 'sans-serif';
+
+
+/* Image Size */
+
+$thumbnail-height: 350px;
+$thumbnail-width: 350px;
+
+/* colors */
+
+$text-color:      #100c01;
+$bg-color:        #ffffff;
+$neutral:         #dde9e9;
+$accent-light:    #099595;
+$accent-dark:     #066565;
+
+/* viewport sizes */
+
+$max-width:       950px;
+
+/* margins */
+
+$less-margin:     0.5rem;
+$margin:          1.5rem;
+$more-margin:     2.0rem;
+$super-margin:    3.0rem;
+
+
+$viewer-height:   650px;
+$parallax-height: 350px;
+$footer-height:   100px;
+
+/*
+font & asset import
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Carrois+Gothic+SC|Open+Sans:300,400,700&font-display=auto');
+@import 'wax';

@@ -1,0 +1,63 @@
+{
+  "@id": "http://localhost:4000/work/img/derivatives/iiif/sequence/obj2_tmis-2.json",
+  "@type": "sc:Sequence",
+  "canvases": [
+    {
+      "@type": "sc:Canvas",
+      "@id": "http://localhost:4000/work/img/derivatives/iiif/canvas/obj2_tmis-2.json",
+      "label": "Page 1",
+      "width": 3024,
+      "height": 4032,
+      "thumbnail": "http://localhost:4000/work/img/derivatives/iiif/images/obj2_tmis-2/full/250,/0/default.jpg",
+      "images": [
+        {
+          "@type": "oa:Annotation",
+          "@id": "http://localhost:4000/work/img/derivatives/iiif/annotation/obj2_tmis-2.json",
+          "motivation": "sc:painting",
+          "resource": {
+            "@id": "http://localhost:4000/work/img/derivatives/iiif/images/obj2_tmis-2/full/full/0/default.jpg",
+            "@type": "dcterms:Image",
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://localhost:4000/work/img/derivatives/iiif/images/obj2_tmis-2",
+              "profile": "http://iiif.io/api/image/2/level0.json"
+            },
+            "width": 3024,
+            "height": 4032
+          },
+          "on": "http://localhost:4000/work/img/derivatives/iiif/canvas/obj2_tmis-2.json"
+        }
+      ]
+    },
+    {
+      "@type": "sc:Canvas",
+      "@id": "http://localhost:4000/work/img/derivatives/iiif/canvas/obj2_tmis.json",
+      "label": "Page 2",
+      "width": 4032,
+      "height": 2692,
+      "thumbnail": "http://localhost:4000/work/img/derivatives/iiif/images/obj2_tmis/full/250,/0/default.jpg",
+      "images": [
+        {
+          "@type": "oa:Annotation",
+          "@id": "http://localhost:4000/work/img/derivatives/iiif/annotation/obj2_tmis.json",
+          "motivation": "sc:painting",
+          "resource": {
+            "@id": "http://localhost:4000/work/img/derivatives/iiif/images/obj2_tmis/full/full/0/default.jpg",
+            "@type": "dcterms:Image",
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://localhost:4000/work/img/derivatives/iiif/images/obj2_tmis",
+              "profile": "http://iiif.io/api/image/2/level0.json"
+            },
+            "width": 4032,
+            "height": 2692
+          },
+          "on": "http://localhost:4000/work/img/derivatives/iiif/canvas/obj2_tmis.json"
+        }
+      ]
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

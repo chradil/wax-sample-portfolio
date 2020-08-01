@@ -1,0 +1,32 @@
+---
+layout: none
+---
+{
+  "@type": "sc:Canvas",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/obj11_network-proto.json",
+  "label": "Page 2",
+  "width": 2637,
+  "height": 1410,
+  "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj11_network-proto/full/250,/0/default.jpg",
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/obj11_network-proto.json",
+      "motivation": "sc:painting",
+      "resource": {
+        "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj11_network-proto/full/full/0/default.jpg",
+        "@type": "dcterms:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj11_network-proto",
+          "profile": "http://iiif.io/api/image/2/level0.json"
+        },
+        "width": 2637,
+        "height": 1410
+      },
+      "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/obj11_network-proto.json"
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

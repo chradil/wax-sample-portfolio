@@ -1,0 +1,74 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:4000/work/img/derivatives/iiif/obj3/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "obj3",
+  "thumbnail": "http://localhost:4000/work/img/derivatives/iiif/images/obj3_danait-gephi/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "http://localhost:4000/work/img/derivatives/iiif/sequence/obj3_danait-gephi.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://localhost:4000/work/img/derivatives/iiif/canvas/obj3_danait-gephi.json",
+          "label": "Page 1",
+          "width": 1540,
+          "height": 1240,
+          "thumbnail": "http://localhost:4000/work/img/derivatives/iiif/images/obj3_danait-gephi/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://localhost:4000/work/img/derivatives/iiif/annotation/obj3_danait-gephi.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://localhost:4000/work/img/derivatives/iiif/images/obj3_danait-gephi/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:4000/work/img/derivatives/iiif/images/obj3_danait-gephi",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1540,
+                "height": 1240
+              },
+              "on": "http://localhost:4000/work/img/derivatives/iiif/canvas/obj3_danait-gephi.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://localhost:4000/work/img/derivatives/iiif/canvas/obj3_returning-gift.json",
+          "label": "Page 2",
+          "width": 4152,
+          "height": 2148,
+          "thumbnail": "http://localhost:4000/work/img/derivatives/iiif/images/obj3_returning-gift/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://localhost:4000/work/img/derivatives/iiif/annotation/obj3_returning-gift.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://localhost:4000/work/img/derivatives/iiif/images/obj3_returning-gift/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:4000/work/img/derivatives/iiif/images/obj3_returning-gift",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2076,
+                "height": 1074
+              },
+              "on": "http://localhost:4000/work/img/derivatives/iiif/canvas/obj3_returning-gift.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "full": "http://localhost:4000/work/img/derivatives/iiif/images/obj3_danait-gephi/full/full/0/default.jpg"
+}

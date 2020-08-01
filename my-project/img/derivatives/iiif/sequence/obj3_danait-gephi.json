@@ -1,0 +1,66 @@
+---
+layout: none
+---
+{
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/sequence/obj3_danait-gephi.json",
+  "@type": "sc:Sequence",
+  "canvases": [
+    {
+      "@type": "sc:Canvas",
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/obj3_danait-gephi.json",
+      "label": "Page 1",
+      "width": 1540,
+      "height": 1240,
+      "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj3_danait-gephi/full/250,/0/default.jpg",
+      "images": [
+        {
+          "@type": "oa:Annotation",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/obj3_danait-gephi.json",
+          "motivation": "sc:painting",
+          "resource": {
+            "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj3_danait-gephi/full/full/0/default.jpg",
+            "@type": "dcterms:Image",
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj3_danait-gephi",
+              "profile": "http://iiif.io/api/image/2/level0.json"
+            },
+            "width": 1540,
+            "height": 1240
+          },
+          "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/obj3_danait-gephi.json"
+        }
+      ]
+    },
+    {
+      "@type": "sc:Canvas",
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/obj3_returning-gift.json",
+      "label": "Page 2",
+      "width": 4152,
+      "height": 2148,
+      "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj3_returning-gift/full/250,/0/default.jpg",
+      "images": [
+        {
+          "@type": "oa:Annotation",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/obj3_returning-gift.json",
+          "motivation": "sc:painting",
+          "resource": {
+            "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj3_returning-gift/full/full/0/default.jpg",
+            "@type": "dcterms:Image",
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj3_returning-gift",
+              "profile": "http://iiif.io/api/image/2/level0.json"
+            },
+            "width": 2076,
+            "height": 1074
+          },
+          "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/obj3_returning-gift.json"
+        }
+      ]
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

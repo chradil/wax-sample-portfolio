@@ -1,0 +1,74 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:4000/work/img/derivatives/iiif/obj6/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "obj6",
+  "thumbnail": "http://localhost:4000/work/img/derivatives/iiif/images/obj6_in-the-archive/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "http://localhost:4000/work/img/derivatives/iiif/sequence/obj6_in-the-archive.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://localhost:4000/work/img/derivatives/iiif/canvas/obj6_in-the-archive.json",
+          "label": "Page 1",
+          "width": 1976,
+          "height": 1374,
+          "thumbnail": "http://localhost:4000/work/img/derivatives/iiif/images/obj6_in-the-archive/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://localhost:4000/work/img/derivatives/iiif/annotation/obj6_in-the-archive.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://localhost:4000/work/img/derivatives/iiif/images/obj6_in-the-archive/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:4000/work/img/derivatives/iiif/images/obj6_in-the-archive",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1976,
+                "height": 1374
+              },
+              "on": "http://localhost:4000/work/img/derivatives/iiif/canvas/obj6_in-the-archive.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "http://localhost:4000/work/img/derivatives/iiif/canvas/obj6_so-real.json",
+          "label": "Page 2",
+          "width": 2596,
+          "height": 1460,
+          "thumbnail": "http://localhost:4000/work/img/derivatives/iiif/images/obj6_so-real/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "http://localhost:4000/work/img/derivatives/iiif/annotation/obj6_so-real.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "http://localhost:4000/work/img/derivatives/iiif/images/obj6_so-real/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "http://localhost:4000/work/img/derivatives/iiif/images/obj6_so-real",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1298,
+                "height": 730
+              },
+              "on": "http://localhost:4000/work/img/derivatives/iiif/canvas/obj6_so-real.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "full": "http://localhost:4000/work/img/derivatives/iiif/images/obj6_in-the-archive/full/full/0/default.jpg"
+}

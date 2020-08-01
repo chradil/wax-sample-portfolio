@@ -1,0 +1,105 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/obj8/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "obj8",
+  "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj8_bone-metadata/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/sequence/obj8_bone-metadata.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/obj8_bone-metadata.json",
+          "label": "Page 1",
+          "width": 1410,
+          "height": 1818,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj8_bone-metadata/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/obj8_bone-metadata.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj8_bone-metadata/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj8_bone-metadata",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 705,
+                "height": 909
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/obj8_bone-metadata.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/obj8_json-metadata.json",
+          "label": "Page 2",
+          "width": 2176,
+          "height": 1420,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj8_json-metadata/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/obj8_json-metadata.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj8_json-metadata/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj8_json-metadata",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1088,
+                "height": 710
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/obj8_json-metadata.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/obj8_workshop.json",
+          "label": "Page 3",
+          "width": 4032,
+          "height": 3024,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj8_workshop/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/obj8_workshop.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj8_workshop/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj8_workshop",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4032,
+                "height": 3024
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/obj8_workshop.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "full": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj8_bone-metadata/full/full/0/default.jpg"
+}

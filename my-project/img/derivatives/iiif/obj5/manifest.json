@@ -1,0 +1,77 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/obj5/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "obj5",
+  "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj5_cryptid/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/sequence/obj5_cryptid.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/obj5_cryptid.json",
+          "label": "Page 1",
+          "width": 3870,
+          "height": 2990,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj5_cryptid/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/obj5_cryptid.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj5_cryptid/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj5_cryptid",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 3870,
+                "height": 2990
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/obj5_cryptid.json"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/obj5_glitch.json",
+          "label": "Page 2",
+          "width": 1406,
+          "height": 2176,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj5_glitch/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/obj5_glitch.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj5_glitch/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj5_glitch",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 703,
+                "height": 1088
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/obj5_glitch.json"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "full": "{{ '/' | absolute_url }}img/derivatives/iiif/images/obj5_cryptid/full/full/0/default.jpg"
+}

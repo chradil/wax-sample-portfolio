@@ -1,0 +1,63 @@
+{
+  "@id": "http://localhost:4000/work/img/derivatives/iiif/sequence/obj11_lcsh.json",
+  "@type": "sc:Sequence",
+  "canvases": [
+    {
+      "@type": "sc:Canvas",
+      "@id": "http://localhost:4000/work/img/derivatives/iiif/canvas/obj11_lcsh.json",
+      "label": "Page 1",
+      "width": 1868,
+      "height": 1548,
+      "thumbnail": "http://localhost:4000/work/img/derivatives/iiif/images/obj11_lcsh/full/250,/0/default.jpg",
+      "images": [
+        {
+          "@type": "oa:Annotation",
+          "@id": "http://localhost:4000/work/img/derivatives/iiif/annotation/obj11_lcsh.json",
+          "motivation": "sc:painting",
+          "resource": {
+            "@id": "http://localhost:4000/work/img/derivatives/iiif/images/obj11_lcsh/full/full/0/default.jpg",
+            "@type": "dcterms:Image",
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://localhost:4000/work/img/derivatives/iiif/images/obj11_lcsh",
+              "profile": "http://iiif.io/api/image/2/level0.json"
+            },
+            "width": 934,
+            "height": 774
+          },
+          "on": "http://localhost:4000/work/img/derivatives/iiif/canvas/obj11_lcsh.json"
+        }
+      ]
+    },
+    {
+      "@type": "sc:Canvas",
+      "@id": "http://localhost:4000/work/img/derivatives/iiif/canvas/obj11_network-proto.json",
+      "label": "Page 2",
+      "width": 2637,
+      "height": 1410,
+      "thumbnail": "http://localhost:4000/work/img/derivatives/iiif/images/obj11_network-proto/full/250,/0/default.jpg",
+      "images": [
+        {
+          "@type": "oa:Annotation",
+          "@id": "http://localhost:4000/work/img/derivatives/iiif/annotation/obj11_network-proto.json",
+          "motivation": "sc:painting",
+          "resource": {
+            "@id": "http://localhost:4000/work/img/derivatives/iiif/images/obj11_network-proto/full/full/0/default.jpg",
+            "@type": "dcterms:Image",
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "http://localhost:4000/work/img/derivatives/iiif/images/obj11_network-proto",
+              "profile": "http://iiif.io/api/image/2/level0.json"
+            },
+            "width": 2637,
+            "height": 1410
+          },
+          "on": "http://localhost:4000/work/img/derivatives/iiif/canvas/obj11_network-proto.json"
+        }
+      ]
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

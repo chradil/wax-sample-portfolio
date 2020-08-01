@@ -1,0 +1,19 @@
+{
+  "@type": "oa:Annotation",
+  "@id": "http://localhost:4000/work/img/derivatives/iiif/annotation/obj0_thesis-home.json",
+  "motivation": "sc:painting",
+  "resource": {
+    "@id": "http://localhost:4000/work/img/derivatives/iiif/images/obj0_thesis-home/full/full/0/default.jpg",
+    "@type": "dcterms:Image",
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "http://localhost:4000/work/img/derivatives/iiif/images/obj0_thesis-home",
+      "profile": "http://iiif.io/api/image/2/level0.json"
+    },
+    "width": 1030,
+    "height": 1085
+  },
+  "on": "http://localhost:4000/work/img/derivatives/iiif/canvas/obj0_thesis-home.json",
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

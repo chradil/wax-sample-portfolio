@@ -1,0 +1,38 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "http://localhost:4000/work/img/derivatives/iiif/images/obj10_gay-as-in",
+  "protocol": "http://iiif.io/api/image",
+  "width": 2644,
+  "height": 976,
+  "sizes": [
+    {
+      "width": 2644,
+      "height": 976
+    },
+    {
+      "width": 250,
+      "height": 92
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "cors",
+        "sizeByWhListed",
+        "baseUriRedirect"
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "width": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ]
+    }
+  ]
+}
